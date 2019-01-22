@@ -7,4 +7,8 @@ Follow along with tutorials and learning Django
 
 [II - Install django](https://github.com/RaulVS14/django_CS/blob/master/Documentation/II%20-%20Install%20django.md)
 
-[III - Development](https://github.com/RaulVS14/django_CS/blob/master/Documentation/II%20-%20Development.md)
+[III - Development - Views](https://github.com/RaulVS14/django_CS/blob/master/Documentation/III%20-%20Development%20-%20Views.md)
+
+[IV - Development - Templates](https://github.com/RaulVS14/django_CS/blob/master/Documentation/IV%20-%20Development%20-%20Templates.md)
+
+[V - Development - Admin](https://github.com/RaulVS14/django_CS/blob/master/Documentation/V%20-%20Development%20-%20Admin.md)
