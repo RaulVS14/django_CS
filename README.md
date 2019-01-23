@@ -12,3 +12,5 @@ Follow along with tutorials and learning Django
 [IV - Development - Templates](https://github.com/RaulVS14/django_CS/blob/master/Documentation/IV%20-%20Development%20-%20Templates.md)
 
 [V - Development - Admin](https://github.com/RaulVS14/django_CS/blob/master/Documentation/V%20-%20Development%20-%20Admin.md)
+
+[VI - Development - Models](https://github.com/RaulVS14/django_CS/blob/master/Documentation/VI%20-%20Development%20-%20Models.md)
