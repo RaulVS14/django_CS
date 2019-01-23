@@ -2,3 +2,5 @@
 __pycache__/
 django_project/db.sqlite3
 django_project/*/migrations/*
+django_project/media/*
+!django_project/media/default.jpg
