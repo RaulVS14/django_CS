@@ -5,6 +5,8 @@
 2. Create a class
 
     ```
+    from django.db import models
+    
     class [your-class-name](models.Model):
         [... Add your class fields ...]
     ```
@@ -12,6 +14,8 @@
     ```
     models.CharField() - characters field, short text field
     models.TextField() - long form text
+    models.ImageField() - field for image takes default value of a filename
+    models.models.OneToOneField() - appoints the field Models are connected on
     models.DateTimeField() - date-time field, can take arguements
     
     Some date-time field arguements: 
@@ -53,3 +57,26 @@
     
     # no save required because 'create' will also save
     ```
+    
+7. Setting relation type constriction for model
+    ```
+    models.OneToOneField(User, on_delete=models.CASCADE)
+    ```
+
+8. Change models objects display name by adding __str__ function
+
+    ```
+        def __str__(self):
+            return "Model " + [some-descriptive-value]
+    ```
+    
+9. Register models for admin page:
+    1. Import Model to app's **admin.py**
+        ```
+        from [app].models import [Model]
+        ```
+    2. Register model
+        ```
+        admin.site.register([Model])
+    
+        ```
