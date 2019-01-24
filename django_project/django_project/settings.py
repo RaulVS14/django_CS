@@ -127,3 +127,6 @@ MEDIA_URL = '/media/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'blog-home'
+
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
