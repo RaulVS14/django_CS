@@ -29,6 +29,6 @@ Follow along with tutorials and learning Django
 
 [XIII - Development - Email](https://github.com/RaulVS14/django_CS/blob/master/Documentation/XIII%20-%20Development%20-%20Email.md)
 
-[XIV - Development - Setting up server](https://github.com/RaulVS14/django_CS/blob/master/Documentation/XIV%20-%20Deployment%20-%20Setting%20up%20server.md)
+[XIV - Deployment - Setting up server](https://github.com/RaulVS14/django_CS/blob/master/Documentation/XIV%20-%20Deployment%20-%20Setting%20up%20server.md)
 
 
