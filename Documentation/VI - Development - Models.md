@@ -80,3 +80,17 @@
         admin.site.register([Model])
     
         ```
+## Class based Views
+1. Template path
+    ```
+    # <app>/<model>_<viewtype>.html
+    ```
+2. Instead of decorators, mixins are used
+    1. Import mixins
+        ```
+        from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+        ```
+    2. Extend view class with mixin class
+        ```
+        class PostCreateView(LoginRequiredMixin, CreateView):
+        ```
